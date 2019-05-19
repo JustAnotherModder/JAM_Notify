@@ -1,5 +1,5 @@
-JAM_Notify = {}
-local JNotify = JAM_Notify
+JAM.Notify = {}
+local JNotify = JAM.Notify
 JNotify.ESX = JAM.ESX
 
 JNotify.SpriteYSize	= 0.038      	-- can touch if u want? changes the background sprite height
