@@ -35,7 +35,8 @@ function JNotify:DoNotify(msg, timer)
 	    self.DrawnTemplate.text = msg
     	self.SpriteXSize = string.len(msg) / 200
 
-		if self.ShowingMsg then	self.Timer = (GetGameTimer() + (timer * 1000))
+		if 
+      self.ShowingMsg then	self.Timer = (GetGameTimer() + (timer * 1000))
 		else 
 			self.ShowingMsg = true
 			self.Timer = GetGameTimer() 
